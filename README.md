@@ -19,3 +19,9 @@ As you can see from the clustering of large red bubbles in the center, there is 
 <p align="center">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/marcusBackground.png" height="550" width="680">
 </p>
+
+Markets for boutique goods (paintings being a prime example) are particularly ripe for manipulation and pricing guides can be unreliable. In that light, I was also interested in how formalized the market for Roman coins was- i.e. are the sellers mostly amateurs or mostly professionals? Grouping the data by zipcode (see below) revealed that nearly 48% of sales were originating in Queens, NY, clearly signalling that a handful, or possibly just one professiona players have captured enormous market share (the larger the red bubble the more sellers in that zip code, states are shaded according to their population).
+
+<p align="center">
+  <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/USmap.png" height="400" width="550">
+</p>
