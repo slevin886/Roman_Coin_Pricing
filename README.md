@@ -30,7 +30,9 @@ Markets for boutique goods (paintings being one prime example) are particularly 
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/USmap.png" height="400" width="550">
 </p>
 
-In fact, coins being sold from this zip code are on average 54% more expensive than other coins. This may be signalling a authenticity premium (professional assurance that the coins are not replicas), overall higher quality, and/or superior marketing and price-setting. In the histogram of current coin prices below, several things come in to view.
+In fact, coins being sold from Queens are on average 54% more expensive than those from the rest of the country. This discontinuity may be signalling that buyers are willing to pay an authenticity premium (professional assurance that the coins are not replicas), that the coins are of higher quality, and/or sellers in Queens are extremely effective marketers. 
+
+Let's take a look now at the distribution of price acros *all* coins. 
 
 <p align="center">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/histprices.png" height="420" width="800">
@@ -42,7 +44,7 @@ First, given that this is scaled logarithmically, we can see that an unscaled di
 
 Another area of variance is in listing type. Not everything on eBay is an auction, in fact, most sales (70% of them) are not auctions. Why does this matter? Because the average price, by listing type, varies from $39 for an auction (30% of all listing types) to $207 for store inventory (60% of all listing types). As you can see in the graph below, the vast majority of high price coins are coming from professional sellers that may be able to largely determine price points (dependent, of course, on market elasticity). If you're curious, 52% of the 11,485 store inventory listings originate in Queens. 
 
-(*AuctionBIN* indicates that you can either bid or 'buy it now')
+(*AuctionWithBIN* indicates that you can either bid or 'buy it now')
 <p align="right">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/legend.png" height="120" width="120">
 </p>
