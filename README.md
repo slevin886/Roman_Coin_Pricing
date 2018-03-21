@@ -32,7 +32,7 @@ Markets for boutique goods (paintings being one prime example) are particularly 
 
 In fact, coins being sold from Queens are on average 54% more expensive than those from the rest of the country. This discontinuity may be signalling that buyers are willing to pay an authenticity premium (professional assurance that the coins are not replicas), that the coins are of higher quality, and/or sellers in Queens are extremely effective marketers. 
 
-Let's take a look now at the distribution of price acros *all* coins. 
+Let's take a look now at the distribution of price across *all* coins. 
 
 <p align="center">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/histprices.png" height="420" width="800">
