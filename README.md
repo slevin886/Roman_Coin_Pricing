@@ -40,8 +40,9 @@ First, given that this is scaled logarithmically, we can see that an unscaled di
 
 ### Submarkets
 
-Another area of variance is in listing type. Not everything on eBay is an auction, in fact, most sales are not auctions. 
+Another area of variance is in listing type. Not everything on eBay is an auction, in fact, most sales (70% of them) are not auctions. Why does this matter? Because the average price, by listing type, varies from $39 for an auction (30% of all listing types) to $207 for store inventory (60% of all listing types). As you can see in the graph below, the vast majority of high price coins are coming from professional sellers that may be able to largely determine price points (dependent, of course, on market elasticity). If you're curious, 52% of the 11,485 store inventory listings originate in Queens. 
 
+(*AuctionBIN* indicates that you can either bid or 'buy it now')
 <p align="right">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/legend.png" height="120" width="120">
 </p>
