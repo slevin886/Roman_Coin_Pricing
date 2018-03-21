@@ -22,6 +22,8 @@ As you can see from the clustering of large red bubbles in the center, there is 
 
 The graph above shows that increased consumer demand (bidding) drives prices up and that rarer coins tend to be have higher prices regardless of bidding. However, this is only a tendency, not a rule. The slope of the trend line and dispersion of scarcity make clear that there are other factors at play. 
 
+### Dominant Player
+
 Markets for boutique goods (paintings being one prime example) are particularly ripe for manipulation and pricing guides can be unreliable. In that light, I was  interested in how formalized the market for Roman coins was- i.e. are the sellers mostly amateurs or mostly professionals? Grouping the data by zip code (see below) revealed that nearly 48% of sales were originating in Queens, NY. This signaled to me that a handful, or possibly just one professional player has captured an enormous market share (the larger the red bubble the more sellers in that zip code, states are shaded according to their population).
 
 <p align="center">
@@ -35,3 +37,14 @@ In fact, coins being sold from this zip code are on average 54% more expensive t
 </p>
 
 First, given that this is scaled logarithmically, we can see that an unscaled distribution would have a long right tail (i.e. more lower price coins and fewer higher priced coins). Second, it is likely that the Queens seller has a certain segment of the market cornered and is likely methodical in price-setting(the dark blue bins are clustered). Third, there are several outliers that will have to be accounted for or dropped before analysis. 
+
+### Submarkets
+
+Another area of variance is in listing type. Not everything on eBay is an auction, in fact, most sales are not auctions. 
+
+<p align="right">
+  <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/legend.png" height="120" width="120">
+</p>
+<p align="center">
+  <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/newnewlisting.png" height="400" width="550">
+</p>
