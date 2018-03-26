@@ -51,3 +51,15 @@ Another area of variance is in listing type. Not everything on eBay is an auctio
 <p align="center">
   <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/newnewlisting.png" height="400" width="550">
 </p>
+
+### The Model and Feature Importance
+
+The final model includes 74 features ranging from continuous demand factors (watch count, bid count) to dummy variables for product characteristics (ex. metal type and emperor). On training data, the model explains ~74% of the variation in price (versus 84% on the full dataset- where overfitting is a significant limitation). Even after restricting observations to a range of $3-$1000, the model is less successful in predicting prices on the margins- with efforts to increase complexity unsuccessful in reducing these errors. 
+
+The following features in the final model are the most influential in capturing price variation: 
+
+<p align="center">
+  <img src="https://github.com/slevin886/Roman_Coin_Pricing/blob/master/images/feature_importance.png" height="310" width="550">
+</p>
+
+Interestingly, 'best offer enabled' tops the list. This is a listing characteristic that allows a prospective buyer to make an offer below the listed price. Also in the top ten features are our Queens seller dummy variable, whether the coin is silver, and our two demand features: bid count and watch count. 
